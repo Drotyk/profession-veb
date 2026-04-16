@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Про мене | ШІ та програмісти</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about.css">
+  <script src="js/theme-toggle.js" defer></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <a href="index.html">AI &amp; Devs</a>
+      </div>
+
+      <nav class="main-nav">
+        <a href="index.html">Головна</a>
+        <a href="about.html" class="nav-active">Про мене</a>
+      </nav>
+
+      <!-- Кнопка перемикача теми -->
+      <button class="theme-toggle" id="themeToggle" aria-label="Перемкнути тему">
+        <span class="theme-toggle__icon" id="themeToggleIcon">🌙</span>
+        <span class="theme-toggle__label" id="themeToggleLabel">Темна</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Головний блок -->
+    <section class="hero hero-about">
+      <div class="section-inner about-layout">
+        <div class="about-photo">
+          <!-- Можеш замінити на свій <img src="img/me.jpg" alt="Моє фото" /> -->
+          <div class="avatar-placeholder">
+            <span></span>
+          </div>
+        </div>
+
+        <div class="about-intro">
+          <p class="eyebrow">Про автора сайту</p>
+          <h1>Привіт! Я — студент Комп`ютерних наук</h1>
+          <p class="lead">
+            Поєдную <strong>програмування</strong>, <strong>штучний інтелект</strong> і
+            <strong>Linux</strong>, будуючи власні інструменти, що реально допомагають
+            вчитися, експериментувати та автоматизувати рутину.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Комп`ютерні науки</span>
+            <span class="tag">C++</span>
+            <span class="tag">HTML / CSS / JS / PHP</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Хто я -->
+    <section>
+      <div class="section-inner about-block">
+        <h2>Хто я</h2>
+        <p>
+          Студент спеціальності <strong>« F2 Комп`ютерні науки»</strong>. 
+          Мені подобається розбиратися не тільки в тому, як працюють мережі, ОС та протоколи, 
+          але й у тому, як <strong>ШІ змінює роботу програмістів</strong>.
+        </p>
+        <p>
+          Пишу консольні та десктопні програми на <strong>C++</strong>, 
+          роблю лабораторні проєкти на <strong>HTML / CSS / JavaScript / PHP</strong>, 
+          працюю з операційною системою  <strong>Linux Mint</strong>, використовую <strong>Git</strong> 
+          і поступово втягуюсь у <strong>Docker</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Як я використовую ШІ -->
+    <section>
+      <div class="section-inner about-grid">
+        <div class="about-card">
+          <h3>Як я використовую ШІ</h3>
+          <ul>
+            <li>Допомога в написанні та рефакторингу коду.</li>
+            <li>Пояснення складних тем: мережі, скремблювання, кодування сигналів тощо.</li>
+            <li>Генерація ідей для навчальних проєктів і міні-утиліт.</li>
+            <li>Переклади та перевірка англійської технічної лексики.</li>
+          </ul>
+          <p>
+            Для мене ШІ — це <strong>інструмент</strong>, а не магія: він не замінює навчання,
+            а пришвидшує його, якщо правильно ставити запитання.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h3>Мої проєкти</h3>
+          <ul>
+            <li>Навчальні сайти з версткою, JavaScript та PHP-формами.</li>
+            <li>Консольні утиліти (таймери, обробка даних, невеликі демо-проєкти). </li>
+          </ul>
+          <p>
+            Я намагаюся робити проєкти так, щоб їх можна було реально
+            використовувати в житті, а не просто здати як лабораторну.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Стек навичок -->
+    <section>
+      <div class="section-inner about-block">
+        <h2>Мій стек</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h4>Мови</h4>
+            <p>C++, JavaScript, PHP, базовий Python, SQL</p>
+          </div>
+          <div class="skill-group">
+            <h4>Веб</h4>
+            <p>HTML5, сучасний CSS (flex, grid), базовий AJAX</p>
+          </div>
+          <div class="skill-group">
+            <h4>Платформи та інструменти</h4>
+            <p>Linux Mint, Git / GitHub, Docker (базовий рівень)</p>
+          </div>
+          <div class="skill-group">
+            <h4>ШІ та автоматизація</h4>
+            <p>ChatGPT, інші AI-сервіси, інтеграція ШІ в робочий процес</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Що далі -->
+    <section>
+      <div class="section-inner about-block">
+        <h2>Що хочу робити далі</h2>
+        <p>
+          Хочу поглиблюватися в <strong>Комп`ютерні науки</strong>, автоматизацію та
+          <strong>побудову власних інструментів з ШІ</strong>. 
+          Цей сайт — мій спосіб систематизувати знання і показати, 
+          як штучний інтелект може стати партнером для програміста, а не загрозою.
+        </p>
+      </div>
+    </section>
+
+    <!-- Контакти / лінки -->
+    <section>
+      <div class="section-inner about-block">
+        <h2>Де мене знайти</h2>
+        <p>
+          Якщо тобі цікаві мої проєкти або ти хочеш поділитися ідеями, 
+          можеш написати мені або зазирнути в репозиторії або на пошту:
+        </p>
+        <ul class="links-list">
+          <li><strong>GitHub:</strong> <a href="https://github.com/Drotyk" target="_blank" rel="noopener">github.com/Drotyk</a></li>
+          <li><strong>Gmail:</strong> <a href="mailto:mpalamarcuk968@gmail.com">mpalamarcuk968@gmail.com</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-inner footer-inner">
+      <p>© <span id="year"></span> Сайт створений студентом групи 2КН-25Б Паламарчуком Миколою.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
